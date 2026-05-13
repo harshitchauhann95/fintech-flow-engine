@@ -63,7 +63,7 @@ export function PromptVault() {
             <h3 className="text-lg font-bold mb-3">{prompt.title}</h3>
             <div className="bg-charcoal-900/50 p-4 rounded-lg flex-1 relative group overflow-hidden">
               <p className="text-sm text-gray-300 font-mono leading-relaxed line-clamp-4 group-hover:line-clamp-none transition-all duration-300">
-                "{prompt.content}"
+                &quot;{prompt.content}&quot;
               </p>
             </div>
           </div>

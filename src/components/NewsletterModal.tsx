@@ -54,7 +54,7 @@ export function NewsletterModal() {
                   <div className="w-16 h-16 bg-electric-green/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <Zap className="w-8 h-8 text-electric-green" />
                   </div>
-                  <h3 className="text-2xl font-bold mb-2">You're In.</h3>
+                  <h3 className="text-2xl font-bold mb-2">You&apos;re In.</h3>
                   <p className="text-gray-400">Welcome to the future of wealth building.</p>
                 </motion.div>
               ) : (
