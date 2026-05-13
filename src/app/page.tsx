@@ -1,4 +1,5 @@
 import { Calculator } from "@/components/Calculator";
+import { MarketPulse } from "@/components/MarketPulse";
 import { ArrowRight } from "lucide-react";
 
 export default function Home() {
@@ -36,11 +37,12 @@ export default function Home() {
         <span className="text-sm font-bold">In-Feed Leaderboard (728x90)</span>
       </div>
 
+      {/* Live Market Pulse */}
+      <MarketPulse />
+
       {/* AI Career Risk Calculator */}
       <Calculator />
 
-      {/* Additional content sections like MarketPulse, PromptVault would go here */}
-      
     </div>
   );
 }
