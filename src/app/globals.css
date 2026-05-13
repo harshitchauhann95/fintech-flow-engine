@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-electric-green selection:text-charcoal-900;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-glass-gradient backdrop-blur-md border border-white/10 shadow-glass rounded-2xl;
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+  }
+}
